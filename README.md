@@ -17,6 +17,9 @@ Search for IIS and you should see it.
 ### Step 4: To directly publish by Visual Studio
 
 On Windows Server, download Web Deploy 4.0.
+make sure this service are added when u intall web deploy 
+
+<img src="/assets/webdeploy.png" alt="create vpc">
 
 ### Open port 8172 to deploy via Visual studio 
 
