@@ -4,7 +4,7 @@ In Server Manager on the server where you will run the Hangfire application, ins
 <img src="/assets/hangfire-step-1.png" alt="">
 
 In IIS, create a new application pool for your site/application, set the .NET CLR version to v4.0, set start mode to "Always Running", and set Idle Time-Out (minutes) to 0.
-<img src="/assets/hangfire-step-2-1.png" alt="">
+<img src="/assets/hangfire-step-2-2.png" alt="">
 
 In IIS for your website that's running your Hangfire application, set the application pool to the one you created above, and set "Preload Enabled" to true.
 
