@@ -10,6 +10,12 @@ In IIS for your website that's running your Hangfire application, set the applic
 
 <img src="/assets/hangfire-step-3.png" alt="">
 
+In web.config / Configuration Editor system.webServer/applicationInitialization
+
+doAppInitAfterRestart changed to true then apply
+
+<img src="/assets/hangfire-step-4.png" alt="">
+
 <a href="https://github.com/HangfireIO/Hangfire/issues/2426"> Check URL </a>
 
 <a href="https://docs.hangfire.io/en/latest/deployment-to-production/making-aspnet-app-always-running.html#:~:text=Right%2Dclick%20on%20the%20same,waiting%20for%20the%20initial%20request."> Check Official Documentation </a>
