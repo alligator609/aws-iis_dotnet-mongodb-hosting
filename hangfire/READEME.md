@@ -16,6 +16,17 @@ doAppInitAfterRestart changed to true then apply
 
 <img src="/assets/hangfire-step-4.png" alt="">
 
+Go to the Configuration Editor on your app, and navigate to system.webServer/applicationInitialization. Set the following settings:
+
+doAppInitAfterRestart: True
+<img src="/assets/hangfire-step-5.png" alt="">
+
+Open up the Collection… ellipsis. On the next window, click Add and enter the following:
+hostName: {URL host for your Hangfire application}
+
+initializationPage: {path for your Hangfire dashboard, like /hangfire}
+<img src="/assets/hangfire-step-6.png" alt="">
+
 <a href="https://github.com/HangfireIO/Hangfire/issues/2426"> Check URL </a>
 
 <a href="https://docs.hangfire.io/en/latest/deployment-to-production/making-aspnet-app-always-running.html#:~:text=Right%2Dclick%20on%20the%20same,waiting%20for%20the%20initial%20request."> Check Official Documentation </a>
